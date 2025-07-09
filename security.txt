@@ -1,0 +1,7 @@
+---
+layout: none
+permalink: .well-known/security.txt
+---
+Contact: mailto:leilaeffiboley411@gmail.com
+Preferred-Languages: fr, en
+Expires: 2025-12-31T23:59:59Z
