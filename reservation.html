@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Réserver un trajet</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Taxi du Monde</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="zones.html">Zones</a></li>
+        <li><a href="temoignages.html">Témoignages</a></li>
+        <li><a href="reservation.html">Réservation</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+<h2>Réserver un trajet</h2>
+<p>Veuillez remplir ce formulaire pour réserver votre trajet. Notre équipe vous contactera rapidement pour confirmer les détails.</p>
+<form>
+  <label>Nom :</label><br>
+  <input type="text" name="nom" required><br><br>
+  <label>Prénom :</label><br>
+  <input type="text" name="prenom" required><br><br>
+  <label>Téléphone :</label><br>
+  <input type="tel" name="telephone" required><br><br>
+  <label>Date du trajet :</label><br>
+  <input type="date" name="date" required><br><br>
+  <label>Heure :</label><br>
+  <input type="time" name="heure" required><br><br>
+  <label>Adresse de départ :</label><br>
+  <input type="text" name="adresse_depart" required><br><br>
+  <label>Adresse d’arrivée :</label><br>
+  <input type="text" name="adresse_arrivee" required><br><br>
+  <button type="submit">Réserver</button>
+</form>
+
+    <h2>Réserver un trajet</h2>
+     « Réserver un trajet ».</p>
+  </main>
+  <footer>
+    <p>&copy; 2025 Taxi du Monde</p>
+  </footer>
+
+  <!-- Chatbot Botpress Cloud -->
+  <script src="https://cdn.botpress.cloud/webchat/v3.0/inject.js" defer></script>
+  <script src="https://files.bpcontent.cloud/2025/07/07/16/20250707163929-Z75RBK4C.js" defer></script>
+
+
+<script>
+document.querySelector("form").addEventListener("submit", function(e) {
+  e.preventDefault();
+  // Ici, normalement on enverrait les données vers Google Sheet
+  // Puis on redirige
+  window.location.href = "merci.html";
+});
+</script>
+
+</body>
+</html>
